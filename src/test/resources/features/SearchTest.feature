@@ -4,10 +4,11 @@ Feature: LambdaTest search functionality
 
   Background:
     And click the "search" button
+    Then close the browser
 
   Scenario: Verify the search functionality
     Given navigated to the LambdaTest URL
     When enter the product name "iphone" in the search bar
 #    And click the "search" button
     And wait for the page to load
-    Then close the browser
+#    Then close the browser

@@ -2,9 +2,12 @@ Feature: LambdaTest search functionality
   As a user,I want to verify search functionality
   so that I want to search a product "iphone"
 
+  Background:
+    When enter the product name "iphone" in the search bar
+
   Scenario: Verify the search functionality
     Given navigated to the LambdaTest URL
-    When enter the product name "iphone" in the search bar
+#    When enter the product name "iphone" in the search bar
     And click the "search" button
     And wait for the page to load
     Then click the filter option

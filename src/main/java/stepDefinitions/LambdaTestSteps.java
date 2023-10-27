@@ -12,7 +12,7 @@ public class LambdaTestSteps {
     }
     @When("enter the product name {string} in the search bar")
     public void enter_the_product_name_in_the_search_bar(String productname) {
-        System.out.println("enter the product name " + productname + " in the search bar");
+        System.out.println("enter the product name "+productname+" in the search bar");
     }
     @And("click the {string} button")
     public void click_the_button(String button) {

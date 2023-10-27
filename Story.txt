@@ -19,7 +19,7 @@ Scenario: Verify the search functionality
 Given navigated to the LambdaTest URL
 When enter the product name "iphone" in the search bar
 And click the "search" button
-And wait for the page to load
+And wait for the result page to load
 Then close the browser
 
 
