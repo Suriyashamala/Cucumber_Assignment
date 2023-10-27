@@ -1,0 +1,26 @@
+Story: LambdaTest search functionality
+   As a user,I want to verify search functionality
+   so that I want to search a product "iphone"
+
+Description: Verify the search functionality
+Test cases:
+1. Navigated to the LambdaTest URL
+2. Enter the product name in the search bar
+3. Click the "search" button
+4. Wait for the page to load
+5. Close the browser
+
+//  BDD - Behaviour Driven Development
+Feature: LambdaTest search functionality
+    As a user,I want to verify search functionality
+    so that I want to search a product "iphone"
+
+Scenario: Verify the search functionality
+Given navigated to the LambdaTest URL
+When enter the product name "iphone" in the search bar
+And click the "search" button
+And wait for the page to load
+Then close the browser
+
+
+
